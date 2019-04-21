@@ -22,7 +22,7 @@ Complete la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
-|            |             |
+| Lizzy Tengana Hurtado | lizzyt10h |
 
 ## Discusión
 
