@@ -4,16 +4,10 @@ int pgO_x, pgO_y, pgF_x, pgF_y, g_hist[], o_hist[];
 float[][] sharpenKernel = { { -1, -1, -1 },
                             { -1,  9, -1 },
                             { -1, -1, -1 } };
-float[][] blur0Kernel = { { 1/9, 1/9, 1/9 },
-                         { 1/9, 1/9, 1/9 },
-                         { 1/9, 1/9, 1/9 } };
-float k = 1/9;
+float k = 1.0/9;
 float[][] blurKernel = { { k, k, k },
                          { k, k, k },
                          { k, k, k } };
-float[][] blur2Kernel = { { 0.111, 0.111, 0.111 },
-                         { 0.111, 0.111, 0.111 },
-                         { 0.111, 0.111, 0.111 } };
 
 void setup() {
   //Initialize variables
